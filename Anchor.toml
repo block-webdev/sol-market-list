@@ -1,0 +1,15 @@
+[programs.localnet]
+sol_market_list = "5kXnXwwEV6Abin9PqAs3PpDbAYuAAGPFhmRB6gxWRieb"
+
+[programs.devnet]
+sol_market_list = "5kXnXwwEV6Abin9PqAs3PpDbAYuAAGPFhmRB6gxWRieb"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/root/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
